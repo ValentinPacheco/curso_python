@@ -1,3 +1,2 @@
 # curso_python
-Curso de Python
-Hola :P
+Curso de desarrollo de sistemas usando python 
