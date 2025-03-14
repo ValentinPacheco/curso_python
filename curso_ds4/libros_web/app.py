@@ -4,7 +4,7 @@ import funciones as fn
 
 app = Flask(__name__)
 
-archivo_csv = 'booklist2000.csv'
+archivo_csv = 'C:\Users\jpval\Documents\D E S A R R O L L O 4\curso_python\curso_ds4\libros_web\booklist2000.csv'
 lista_libros = fn.lee_archivo_csv(archivo_csv)
 diccionario_id = fn.crea_diccionario(lista_libros,'id')
 diccionario_titulos = fn.crea_diccionario(lista_libros,'title')
