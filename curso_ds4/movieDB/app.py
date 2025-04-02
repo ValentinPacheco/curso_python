@@ -53,7 +53,7 @@ def login():
             return redirect(url_for('index'))
         else:
             error = 'Usuario o contraseña incorrectos'
-            return render_template('login.html'))
+            return render_template('login.html')
     return render_template('login.html')
 if __name__ == '__main__':
     app.run(debug=True)
